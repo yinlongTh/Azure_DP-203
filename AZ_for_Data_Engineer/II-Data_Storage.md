@@ -1,6 +1,4 @@
-## Decide how many storage accounts you need
-
-#### Storage
+## Storage
 - SQL : Can't be in Storage Accounts
 - Cosmos DB : Can't be in Storage Accounts
 - Events Hubs
