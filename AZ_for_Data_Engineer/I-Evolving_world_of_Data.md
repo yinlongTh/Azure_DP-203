@@ -7,15 +7,15 @@
 - Clean up
 - Requirements met?
 
-#### Processes
+#### ETL Project Processes
 - Source
 - Prepare
 - Ingest
 - Analyze
-- Consumde
+- Consume
 
 #### Azure storage has 4 options
-1. Blob : Cheapest, REST APIs, SDKs, Support many programming language
+1. Blob : Great to store, Cheapest, REST APIs, SDKs, Support many programming language
 2. File
 3. Queue
 4. Table
@@ -38,32 +38,42 @@
 <pre>
 <strong>Cosmos DB</strong>
 : Multiartitecher
-API (can be accessed by) : SQL / MongoDB / Cassandra / Gremlin 
+- API (can be accessed by) : SQL / MongoDB / Cassandra / Gremlin 
 NoSQL DB to support API model
+- 5 nine Uptime
+- Replication
 </pre>
 
 
+
 #### Synapse Analytics
-Cloud based
-ELT approach to bulk data
+- Cloud based
+- ELT approach to bulk data
 
+#### Stream analytics
+- Real time : Ingest, stream
+- IoTHub, EventHub
 
-Stream analytics
-Real time : Ingest, stream
-IoTHub, EventHub
-
-HDInsight
+#### HDInsight
 Ingest / process / analyst big data 
+- Hadoop : HDFS 
+- HBase : use for search engine
+- Kafka : compose data pipeline
 
 
-#### Recap + Exam
+## Recap + Exam
 
-Data
-Structured : Relational DB : SQL server, SQL DB, SQL Warehouse
-UnStructured : NoSQL
+#### Data
+- Structured : Relational DB : SQL server, SQL DB, SQL Warehouse
+- UnStructured : NoSQL
 
-Premise to Cloud 
-factor
-Azure let using web, command to do so
+#### Premise to Cloud 
+- factor
+- Azure let using web, command to do so
 
 Data repositories + Ingest
+
+## Terminology
+<pre>
+- TCO : Total Cost of Ownership
+</pre>
